@@ -1,0 +1,81 @@
+.sequencing
+	padding-top: 17rem
+	&--dark
+		background: $dark
+		margin-top: -25rem
+		padding-bottom: 50rem
+	&__span--light
+		color: $light
+	&__heading--primary
+		font-size: 2rem
+		line-height: 2rem
+		font-family: 'Yeseva One', cursive
+		color: $primary
+		text-transform: uppercase
+		margin-bottom: 0.64rem
+	&__underheading--primary
+		font-size: 1.285rem
+		line-height: 1.78rem
+		font-family: 'Yeseva One', cursive
+		color: $primary
+		text-transform: uppercase
+		margin-bottom: 0.64rem
+	&__number--light
+		font-family: FuturaDemiC
+		font-style: normal
+		font-weight: 500
+		font-size: 1.28rem
+		line-height: 2.5rem
+		text-transform: uppercase
+		color: $light
+	&__text--light
+		font-family: FuturaBookC;
+		font-style: normal
+		font-weight: normal
+		font-size: 1.08rem
+		line-height: 1.8rem
+		color: $light
+.duties
+	&__row
+		display: flex
+		flex-wrap: wrap
+	&__pas
+		flex-basis: 100%
+		margin-bottom: 2.42rem
+		padding-bottom: 2rem
+		font-family: FuturaBookC
+		font-style: normal
+		font-weight: normal
+		font-size: 15px
+		line-height: 18px
+		color: $light
+	&__number
+		font-size: 1.285rem
+		line-height: 1.78rem
+		font-family: 'Yeseva One', cursive
+		color: $light
+		text-transform: uppercase
+		margin-bottom: 0.64rem
+	&-pagination
+		margin: auto	
+		&-bullet
+			background-color: rgba($light, 0.7)
+			&-active
+				background-color: $light
+	&-button
+		&-prev, &-next
+			background-size: 42px
+			width: 42px
+			height: 14px
+			&::after
+				display: none
+		&-prev
+			left: 0
+			background: url('../image/arrow-prev.svg')no-repeat center
+		&-next
+			background: url('../image/arrow-next.svg')no-repeat center
+.swiper-container-horizontal>.swiper-pagination-bullets
+	width: auto	
+	bottom: -2px
+.wrap
+	margin-bottom: 2rem
